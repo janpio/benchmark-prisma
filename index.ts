@@ -12,8 +12,8 @@ main()
   .catch(e => console.error(e))
 
 async function main() {
-  //await customCsv()
-  await custom()
+  await customCsv()
+  //await custom()
 }
 
 async function customCsv() {
